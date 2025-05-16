@@ -39,7 +39,7 @@ These enhancements are being developed as part of **Phase 2** and will further e
 
 ## 📄 Documentation
 - [Assignment specification - Phase 1](./Zadaća%201.pdf)
-- [Assignment specification - Phase 2)](./Zadaća%202.pdf)
+- [Assignment specification - Phase 2](./Zadaća%202.pdf)
 
 ## 📄 License
 This project is intended for educational purposes only and follows FOI academic guidelines. Commercial use is not permitted.
