@@ -1,6 +1,6 @@
 # AI Tools Showcase
 
-Web application for displaying and comparing AI tools. Developed as part of the **Web Technologies Fundamentals** course at the Faculty of Organization and Informatics, University of Zagreb.
+Web application for displaying and comparing AI tools. Developed as part of the **Introduction to Web Technologies** course at the Faculty of Organization and Informatics, University of Zagreb.
 
 ## 📋 Project Overview
 This application enables users to:
@@ -16,8 +16,8 @@ The project focuses on correct HTML semantics, CSS styling techniques, accessibi
 - **CSS3** — custom styling with responsive layout
 - **Bootstrap 5** — applied on Documentation and About pages
 - **ARIA attributes** — for form accessibility
-- **JavaScript (Planned in Phase 2)** — for client-side interactivity
-- **Node.js (Planned in Phase 2)** — for server-side functionality and REST API integration
+- **JavaScript (planned in Phase 2)** — for client-side interactivity
+- **Node.js (planned in Phase 2)** — for server-side functionality and REST API integration
 
 
 ## 📈 Key Features & Highlights
