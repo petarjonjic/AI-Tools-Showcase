@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Petar Jonjić">
+    <meta name="description" content="Web aplikacija za prikaz alata umjetne inteligencije (AI)">
+    <meta name="keywords" content="AI, alat, umjetna inteligencija, web aplikacija, FOI, OWT">
+    <meta name="generator" content="HTML5">
+    <link rel="stylesheet" href="../../css/pjonjic23.css">
+    <link rel="stylesheet" href="../../css/index.css">
+    <script src="../../js/pjonjic23.js"></script>
+    <title>Recenzije</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div id="GKontejner">
+            <div id="DKontejner">
+                <a href="../../index.html">
+                    <img src="../../resursi/slike/AILogo.png" width="30" height="30" alt="AI preglednik - logo">
+                </a>
+            </div>
+            <div id="h1Kontejner">
+                <h1 id="hd-h1">AI Preglednik</h1>
+            </div>
+
+            <ul>
+                <li><a href="../../index.html">Početna</a></li>
+                <li><a href="../oAutoru.html">O autoru</a></li>
+                <li><a href="../dokumentacija.html">Dokumentacija</a></li>
+                <li><a href="./recenzija.html" class="active">Recenzije</a></li>
+                <li><a href="./katalog.html">Katalog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="rec-glavni-sadrzaj">
+
+        <section class="obrazac1-bg">
+
+            <div class="forma-naslov">
+                <h1>Recenzija AI alata</h1>
+            </div>
+
+            <div class="forma-sadrzaj">
+                <p id="forma-pg1">Molimo vas da ispunite sljedeći obrazac kako bismo prikupili vaše podatke i mišljenje
+                    o AI alatima.</p>
+
+                <form id="obrazac-1" class="forma" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php"
+                    method="post" enctype="multipart/form-data">
+
+                    <div class="kor-detalji">
+
+                        <div class="forma-grupa">
+                            <label class="det" for="ime">Ime i prezime:</label>
+                            <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime i prezime" required
+                                aria-required="true" aria-label="Ime i prezime korisnika">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="korime">Korisničko ime:</label>
+                            <input type="text" id="korime" name="korime" placeholder="Unesite korisničko ime" required
+                                aria-required="true" aria-label="Korisničko ime korisnika">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="email">Email adresa:</label>
+                            <input type="email" id="email" name="email" placeholder="Unesite email adresu" required
+                                aria-required="true">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="zanimanje">Vaše zanimanje:</label>
+                            <input type="text" id="zanimanje" name="zanimanje"
+                                placeholder="npr. student, developer, profesor">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="telefon">Broj mobitela:</label>
+                            <input type="tel" id="telefon" name="telefon" placeholder="Unesite broj mobitela"
+                                aria-label="Unesite broj mobitela korisnika">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="datum">Datum testiranja alata:</label>
+                            <input type="date" id="datum" name="datum">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="omiljeni">Omiljeni AI alat:</label>
+                            <input type="text" id="omiljeni" name="omiljeni"
+                                placeholder="Npr. DeepSeek, ChatGPT, Claude...">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="alat">Odabrani AI alat:</label>
+                            <select id="alat" name="alat">
+                                <option value="chatgpt">ChatGPT</option>
+                                <option value="bard">Gemini (Bard)</option>
+                                <option value="copilot">GitHub Copilot</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="razina">Razina poznavanja AI alata:</label>
+                            <select id="razina" name="razina">
+                                <option value="">-- Odaberite razinu --</option>
+                                <option value="pocetnik">Početnik</option>
+                                <option value="srednje">Srednje</option>
+                                <option value="napredno">Napredno</option>
+                                <option value="strucnjak">Stručnjak</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="ocjena">Ocjena alata (1–10):</label>
+                            <input type="number" id="ocjena" name="ocjena" min="1" max="10">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="komentar">Komentar:</label>
+                            <textarea id="komentar" name="komentar" rows="4" cols="40"
+                                placeholder="Podijelite svoje iskustvo s alatom"></textarea>
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="web">Web stranica alata:</label>
+                            <input type="url" id="web" name="web">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="zadovoljstvo">Zadovoljstvo alatom:</label>
+                            <input type="range" id="zadovoljstvo" name="zadovoljstvo" min="0" max="100">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="month">Mjesec početka korištenja:</label>
+                            <input type="month" id="month" name="month">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="boja">Odaberite boju sučelja alata:</label>
+                            <input type="color" id="boja" name="boja" value="#4a90e2">
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det" for="datoteke">Učitaj više datoteka:</label>
+                            <input type="file" id="datoteke" name="datoteke" multiple>
+                        </div>
+                        <br>
+
+                        <div class="forma-grupa">
+                            <label class="det">
+                                <input type="checkbox" name="uvjeti" required>
+                                Prihvaćam uvjete korištenja
+                            </label>
+                        </div>
+                        <br>
+
+                    </div>
+
+                    <div class="spol-detalji">
+                        <input type="radio" name="spol" id="tocka-1" value="m">
+                        <input type="radio" name="spol" id="tocka-2" value="ž">
+                        <span class="spol-naslov">Spol:</span>
+
+                        <div class="kat">
+                            <label for="tocka-1">
+                                <span class="tocka jedan"></span>
+                                <span class="spol">Muško</span>
+                            </label>
+                            <label for="tocka-2">
+                                <span class="tocka dva"></span>
+                                <span class="spol">Žensko</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="forma-grupa">
+                        <button type="reset">Poništi</button>
+                    </div>
+
+                    <br>
+
+                    <div class="forma-grupa">
+                        <button type="submit">Pošalji</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-kontejner">
+
+        <div>
+
+            <a href="https://openai.com/index/chatgpt/" target="_blank">
+                <img src="../../resursi/slike/ChatGPTFooter.png" alt="ChatGPT ikona" width="50" height="50">
+            </a>
+
+            <a href="https://gemini.google.com/" target="_blank">
+                <img src="../../resursi/slike/GeminiFooter.png" alt="Gemini ikona" width="50" height="50">
+            </a>
+
+
+            <p>&#169; Petar Jonjić, 2025</p>
+            <a href="https://validator.w3.org/check?uri=https://spider.foi.hr/OWT/2025/zadaca_01/pjonjic23/html/ostalo/recenzija.html"
+                target="_blank">
+                <img src="../../resursi/slike/HTML5.png" alt="HTML5" width="130" height="130">
+            </a>
+
+            <a href="https://www.deepseek.com/" target="_blank">
+                <img src="../../resursi/slike/DeepSeekFooter.png" alt="DeepSeek ikona" width="50" height="50">
+            </a>
+
+
+            <a href="https://www.anthropic.com/claude" target="_blank">
+                <img src="../../resursi/slike/ClaudeFooter.png" alt="Claude AI ikona" width="50" height="50">
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
+
+</html>
