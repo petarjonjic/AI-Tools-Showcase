@@ -38,7 +38,8 @@ The project will be extended with:
 These enhancements are being developed as part of **Phase 2** and will further enrich the functionality and complexity of the project.
 
 ## 📄 Documentation
-- [Assignment specification (Zadaća 1)](./Zadaća%201.pdf)
+- [Assignment specification - Phase 1](./Zadaća%201.pdf)
+- [Assignment specification - Phase 2)](./Zadaća%202.pdf)
 
 ## 📄 License
 This project is intended for educational purposes only and follows FOI academic guidelines. Commercial use is not permitted.
