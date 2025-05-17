@@ -2,7 +2,7 @@
 
 Web application for displaying and comparing AI tools. Developed as part of the **Introduction to Web Technologies** course at the Faculty of Organization and Informatics, University of Zagreb.
 
-## 📋 Project Overview
+## Project Overview
 This application enables users to:
 - View and compare popular AI tools (ChatGPT, Gemini, DeepSeek, Claude)
 - Access detailed information and usage examples for each tool
@@ -11,7 +11,7 @@ This application enables users to:
 
 The project focuses on correct HTML semantics, CSS styling techniques, accessibility through ARIA attributes, and responsive web design principles.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **HTML5** — semantic structure of all pages
 - **CSS3** — custom styling with responsive layout
 - **Bootstrap 5** — applied on Documentation and About pages
@@ -20,14 +20,14 @@ The project focuses on correct HTML semantics, CSS styling techniques, accessibi
 - **Node.js (planned in Phase 2)** — for server-side functionality and REST API integration
 
 
-## 📈 Key Features & Highlights
+## Key Features & Highlights
 - 🖼️ Custom **image carousel** implemented using CSS and radio buttons
 - ❓ FAQ section with table view and accordion functionality
 - 📱 Fully **responsive layout** optimized for all screen sizes
 - 📝 Forms with **15+ input elements** and ARIA accessibility features
 - 🔗 Internal navigation and semantic structure compliant with course requirements
 
-## 🚀 Future Development (Phase 2 - *in development*)
+## Future Development (Phase 2 - *in development*)
 The project will be extended with:
 - **Client-side interactivity using JavaScript** (carousel auto-scroll, image gallery lightbox, dynamic content toggling)
 - **Form validation with unobtrusive JavaScript**
@@ -37,10 +37,10 @@ The project will be extended with:
 
 These enhancements are being developed as part of **Phase 2** and will further enrich the functionality and complexity of the project.
 
-## 📄 Documentation
+## Documentation
 - [Assignment specification - Phase 1](./Zadaća%201.pdf)
 - [Assignment specification - Phase 2](./Zadaća%202.pdf)
 
-## 📄 License
+## License
 This project is intended for educational purposes only and follows FOI academic guidelines. Commercial use is not permitted.
 
